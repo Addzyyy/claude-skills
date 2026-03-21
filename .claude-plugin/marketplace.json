@@ -1,0 +1,17 @@
+{
+  "name": "dora-skills-marketplace",
+  "owner": {
+    "name": "Addzyyy"
+  },
+  "plugins": [
+    {
+      "name": "dora-skills",
+      "source": {
+        "source": "github",
+        "repo": "Addzyyy/dora-skills"
+      },
+      "description": "17 Claude Code skills for engineering practices that improve DORA metrics",
+      "version": "1.0.0"
+    }
+  ]
+}
