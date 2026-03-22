@@ -11,7 +11,7 @@
         "repo": "Addzyyy/dora-skills"
       },
       "description": "Claude Code skills and agents for engineering practices that improve DORA metrics. 18 skills, 3 agents, enforcement hooks.",
-      "version": "2.1.0"
+      "version": "2.2.0"
     },
     {
       "name": "product-discovery-skills",
