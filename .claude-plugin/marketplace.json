@@ -19,8 +19,8 @@
         "source": "github",
         "repo": "Addzyyy/product-discovery-skills"
       },
-      "description": "Claude Code skills for product discovery and user story mapping, inspired by Jeff Patton's book. 11 skills covering story mapping, thin-slicing, personas, outcomes, MVPs, and prioritization. 3 agents, session hooks.",
-      "version": "1.0.0"
+      "description": "Claude Code skills for product discovery and user story mapping, inspired by Jeff Patton's book. 11 skills covering story mapping, thin-slicing, personas, outcomes, MVPs, and prioritization. 3 agents, enforcement hooks.",
+      "version": "1.1.0"
     }
   ]
 }
