@@ -6,21 +6,19 @@
   "plugins": [
     {
       "name": "dora-skills",
-      "source": {
-        "source": "github",
-        "repo": "Addzyyy/dora-skills"
-      },
+      "source": "./dora-skills",
       "description": "Claude Code skills and agents for engineering practices that improve DORA metrics. 18 skills, 3 agents, enforcement hooks.",
-      "version": "2.2.0"
+      "version": "2.2.0",
+      "keywords": ["dora", "devops", "deployment", "testing", "observability", "tdd", "code-review"],
+      "category": "development"
     },
     {
       "name": "product-discovery-skills",
-      "source": {
-        "source": "github",
-        "repo": "Addzyyy/product-discovery-skills"
-      },
+      "source": "./product-discovery-skills",
       "description": "Claude Code skills for product discovery and user story mapping, inspired by Jeff Patton's book. 12 skills (including discovery-overview router), 3 agents, enforcement hooks, shared discovery brief artifact, visual story map generator.",
-      "version": "1.3.0"
+      "version": "1.3.0",
+      "keywords": ["product-discovery", "story-mapping", "user-stories", "mvp", "prioritization", "personas", "planning"],
+      "category": "product"
     }
   ]
 }

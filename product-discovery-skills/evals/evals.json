@@ -1,0 +1,23 @@
+{
+  "skill_name": "product-discovery-skills",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm building a tool that helps small restaurant owners manage their online orders. They're getting slammed with orders from UberEats, DoorDash, and their own website and can't keep track. Help me figure out what to build — who are the users, what's the real problem, and what should the first version look like?",
+      "expected_output": "Should identify specific user personas, frame the problem space before solutions, define outcomes, propose a walking skeleton for v1, slice thin, and prioritize with NOW/LATER/NEVER.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We have a project management app we're building. Here's our feature list: task creation, task assignment, due dates, recurring tasks, subtasks, comments on tasks, file attachments, kanban board view, list view, calendar view, team workspaces, user roles and permissions, notifications (email + in-app), search, filters, tags/labels, time tracking, reporting dashboard, integrations (Slack, GitHub), mobile app, offline mode, templates, activity feed, bulk operations. Help me figure out what goes in v1 vs later releases and what we should cut entirely.",
+      "expected_output": "Should apply NOW/LATER/NEVER with reasoning, identify the walking skeleton, slice releases into themed horizontal slices, define outcomes for v1, and explicitly kill items.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We need to build a customer feedback system for our SaaS product. The epic is huge — collecting feedback via surveys, in-app widgets, email campaigns, analyzing sentiment with AI, routing feedback to the right product teams, building dashboards for PMs, sending notifications when feedback matches certain keywords, tracking feedback-to-feature pipeline, and a public roadmap page. Help me break this down and figure out how to validate it before building everything.",
+      "expected_output": "Should break the epic into vertical slices, frame each slice around user outcomes, propose an MVP experiment, identify personas, and apply thin-slicing.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat <<'MSG'\n[Discovery] Product discovery practices are active. Before planning or scoping:\n  1. Load the relevant discovery skill (see CLAUDE.md router table)\n  2. Frame the problem before jumping to solutions (discovery-framing)\n  3. Identify your users (persona-framing)\n  4. Define outcomes, not outputs (outcome-over-output)\nMSG"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Discovery] Before writing — is this grounded in a persona? Is there a discovery skill loaded? Stories without a named user are solutions looking for a problem.'"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Discovery] If creating issues/stories: tied to an outcome, not just an output? If scoping: sliced thin enough to learn from?'"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Discovery] Checkpoint — did you: (1) load a discovery skill? (2) name the persona? (3) define the outcome? (4) slice thin? If not, revisit before finalizing.'"
+          }
+        ]
+      }
+    ]
+  }
+}
